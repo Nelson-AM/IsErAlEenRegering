@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<center>
 <h1>Is er al een regering?</h1>
 <p>Nee.</p>
-
+<div id="counter"></div>
+<script type="text/javascript">
+  var government=new dcountup("January 15, 2021 12:00:00", "days")
+  government.oncountup=function(result){
+    var mycountainer=document.getElementById("counter")
+    mycountainer.innerHTML="<p>Al " + result['days'] + " dagen sinds het ontslag van Rutte III</p>"}
+</script>
+</center>
 </body>
 </html>
