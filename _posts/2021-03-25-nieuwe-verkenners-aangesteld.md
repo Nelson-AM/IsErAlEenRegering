@@ -1,5 +1,5 @@
 ---
 layout: post
-title:  "van Ark (VVD) en Koolmees (D66) vervangen Jorritsma (VVD) en Ollongren (D66)"
+title:  "Tamara van Ark (VVD) en Wouter Koolmees (D66) aangesteld als nieuwe verkenners"
 date: 25-03-2021 15:00
 ---

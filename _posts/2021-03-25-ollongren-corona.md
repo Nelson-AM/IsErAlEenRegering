@@ -1,5 +1,5 @@
 ---
 layout: post
-title:  "Ollongren positief getest op corona"
+title:  "Kajsa Ollongren (D66) positief getest op corona. Gesprekken stopgezet."
 date: 25-03-2021 09:00
 ---
