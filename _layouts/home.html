@@ -3,19 +3,23 @@ layout: default
 ---
 
 <head>
-    {% include analytics.html %}
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  {% include analytics.html %}
 </head>
 <body>
 <div class="home">
   {{ content }}
 
-  <ul>
-  {% for post in site.posts %}
-    <li>
-      {{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}
-    </li>
-  {% endfor %}
-  </ul>
+  <div class="timeline">
+    {% for post in site.posts %}
+    <div class="container right">
+      <div class="content">
+        <h2>{{ post.title }}</h2>
+        <h3>{{ post.date | date: "%d-%m-%Y" }}</h3>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
 
 {{ footer }}

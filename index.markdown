@@ -25,6 +25,6 @@ const dagenSindsVerkiezingen = Math.ceil(tijdSindsVerkiezingen / (1000*60*60*24)
 document.getElementById("verkiezingenCounter").innerHTML = "<p>Het is " + dagenSindsVerkiezingen.toString() + " dagen geleden dat de tweede kamerverkiezingen hebben plaatsgevonden.</p>";
 </script>
 
-![IK GEEF EEN NIER VOOR GEEN MARK RUTTE IV](/assets/nierposter.jpg)
+![IK GEEF EEN NIER VOOR GEEN MARK RUTTE IV](/assets/images/nierposter.jpg)
 
 ## Tijdlijn
