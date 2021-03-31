@@ -12,6 +12,7 @@ layout: default
 
   <div class="timeline">
     {% for post in site.posts %}
+    {% assign time = page.date | date: "%r" %}
     <div class="container right">
       <div class="content">
         <h2>{{ post.title }}</h2>
