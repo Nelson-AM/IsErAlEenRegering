@@ -28,6 +28,11 @@
     background-color: inherit;
     width: 75%;
   }
+
+  .container a {
+    color: white;
+    text-decoration: underline;
+  }
   
   /* The circles on the timeline */
   .container::after {
