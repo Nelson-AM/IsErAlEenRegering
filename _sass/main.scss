@@ -9,6 +9,15 @@
     margin: 0 auto;
   }
   
+  .timeline > div:nth-child(odd) > div.content { 
+    border-color: #7d879b;
+    background-color: #7d879b; 
+  }
+
+  .timeline > div:nth-child(odd)::before {
+    border-color: transparent #7d879b transparent transparent;
+  }
+
   /* The actual timeline (the vertical ruler) */
   .timeline::after {
     content: '';
