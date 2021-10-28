@@ -25,6 +25,11 @@ const dagenSindsVerkiezingen = Math.ceil(tijdSindsVerkiezingen / (1000*60*60*24)
 document.getElementById("verkiezingenCounter").innerHTML = "<p>Het is " + dagenSindsVerkiezingen.toString() + " dagen geleden dat de tweede kamerverkiezingen hebben plaatsgevonden.</p>";
 </script>
 
+<p align="center">
+  <img src="/assets/images/chapeau-buma.gif">
+</p>
+🎉 Dit is nu officiëel de langste formatie in de Nederlandse geschiedenis. 🎉
+
 ![IK GEEF EEN NIER VOOR GEEN MARK RUTTE IV](/assets/images/nierposter.jpg)
 
-## Tijdlijn
+<!-- ## Tijdlijn -->
