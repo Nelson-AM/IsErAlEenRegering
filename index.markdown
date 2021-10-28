@@ -28,7 +28,9 @@ document.getElementById("verkiezingenCounter").innerHTML = "<p>Het is " + dagenS
 <p align="center">
   <img src="/assets/images/chapeau-buma.gif">
 </p>
-🎉 Dit is nu officiëel de langste formatie in de Nederlandse geschiedenis. 🎉
+<p style="text-align: center;">
+  🎉 Dit is nu officiëel de langste formatie in de Nederlandse geschiedenis. 🎉
+</p>
 
 ![IK GEEF EEN NIER VOOR GEEN MARK RUTTE IV](/assets/images/nierposter.jpg)
 
