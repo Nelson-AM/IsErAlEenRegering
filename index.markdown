@@ -7,6 +7,8 @@ layout: home
 
 # Nee
 
+... maar er is wel een [coalitieakkoord](https://www.kabinetsformatie2021.nl/documenten/publicaties/2021/12/15/coalitieakkoord-omzien-naar-elkaar-vooruitkijken-naar-de-toekomst)!
+
 <div id="ontslagCounter"></div>
 <div id=verkiezingenCounter></div>
 
@@ -15,14 +17,14 @@ const today = new Date();
 const ontslagdatum = new Date("January 15, 2021");
 const tijdSindsOntslag = Math.abs(ontslagdatum - today);
 const dagenSindsOntslag = Math.ceil(tijdSindsOntslag / (1000*60*60*24));
-document.getElementById("ontslagCounter").innerHTML = "<p>Het is " + dagenSindsOntslag.toString() + " dagen geleden dat Rutte III zijn ontslag heeft aangeboden.</p>";
+document.getElementById("ontslagCounter").innerHTML = "<p>" + dagenSindsOntslag.toString() + " dagen geleden heeft Rutte III zijn ontslag aangeboden.</p>";
 </script>
 
 <script type="text/javascript">
 const verkiezingen = new Date("March 17, 2021");
 const tijdSindsVerkiezingen = Math.abs(verkiezingen - today);
 const dagenSindsVerkiezingen = Math.ceil(tijdSindsVerkiezingen / (1000*60*60*24));
-document.getElementById("verkiezingenCounter").innerHTML = "<p>Het is " + dagenSindsVerkiezingen.toString() + " dagen geleden dat de tweede kamerverkiezingen hebben plaatsgevonden.</p>";
+document.getElementById("verkiezingenCounter").innerHTML = "<p>" + dagenSindsVerkiezingen.toString() + " dagen geleden hebben de tweede kamerverkiezingen plaatsgevonden.</p>";
 </script>
 
 <p align="center">
