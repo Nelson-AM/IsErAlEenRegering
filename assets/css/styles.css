@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+
+    background-image: url("/assets/images/dutch-flag-brushstroke.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 400px;
+}
+
+#YesNo {
+    font-size: x-large;
+    display: inline-block;
+    padding: 150px;
+}

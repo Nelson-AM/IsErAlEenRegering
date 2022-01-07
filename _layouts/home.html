@@ -7,22 +7,14 @@ layout: default
   {% include analytics.html %}
 </head>
 <body>
-<div class="home">
+<!-- <div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>  
+  {%- endif -%} -->
+
+  <div id="container">
+    <span id="YesNo">Ja</span>
+  </div>
   {{ content }}
-
-  <!-- <div class="timeline">
-    {% for post in site.posts %}
-    {% assign time = page.date | date: "%r" %}
-    <div class="container right">
-      <div class="content">
-        <h2>{{ post.title }}</h2>
-        <h3>{{ post.date | date: "%d-%m-%Y %H:%M" }}</h3>
-        <p>{{ post.content }}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div> -->
 </div>
-
-{{ footer }}
 </body>
