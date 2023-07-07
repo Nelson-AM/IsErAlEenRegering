@@ -48,7 +48,7 @@ dcountup.prototype.start=function(){
   setTimeout(function(){thisobj.start()}, 1000) //update results every second
 }
 
-var government = new dcountup("January 10, 2022 11:00:00", "days")
+var government = new dcountup("July 7, 2023 20:03:00", "days")
 government.oncountup = function(result){
   var mycountainer=document.getElementById("counter")
   mycountainer.innerHTML="<span>Al " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " seconden</span>"
