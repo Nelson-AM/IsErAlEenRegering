@@ -51,6 +51,6 @@ dcountup.prototype.start=function(){
 var government = new dcountup("January 10, 2022 11:00:00", "days")
 government.oncountup = function(result){
   var mycountainer=document.getElementById("counter")
-  mycountainer.innerHTML="<span>Al " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " seconden sinds de beëdiging</span>"
+  mycountainer.innerHTML="<span>Al " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " seconden sinds <a href="https://nos.nl/artikel/2481938-bronnen-kabinet-valt-geen-akkoord-over-asielmaatregelen">bronnen hebben gezegd dat er geen akkoord over asielmaatregelen is</a></span>"
 }
 </script>
