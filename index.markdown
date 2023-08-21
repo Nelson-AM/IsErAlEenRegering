@@ -51,6 +51,6 @@ dcountup.prototype.start=function(){
 var government = new dcountup("July 7, 2023 19:50:00", "days")
 government.oncountup = function(result){
   var mycountainer=document.getElementById("counter")
-  mycountainer.innerHTML="<span>Al " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " seconden</span>"
+  mycountainer.innerHTML="<span>Al " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " seconden sinds Rutte IV is gevallen.</span>"
 }
 </script>
