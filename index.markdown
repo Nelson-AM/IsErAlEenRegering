@@ -54,3 +54,7 @@ government.oncountup = function(result){
   mycountainer.innerHTML="<span>Al " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " seconden sinds Rutte IV is gevallen.</span>"
 }
 </script>
+
+<be \>
+
+<span><a href="https://nos.nl/collectie/13958-verkiezingen-2023>Wat een uitslag...</a></span>
