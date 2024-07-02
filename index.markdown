@@ -48,9 +48,9 @@ dcountup.prototype.start=function(){
   setTimeout(function(){thisobj.start()}, 1000) //update results every second
 }
 
-var government = new dcountup("July 7, 2023 19:50:00", "days")
+var government = new dcountup("July 2, 2023 11:00:00", "days")
 government.oncountup = function(result){
   var mycountainer=document.getElementById("counter")
-  mycountainer.innerHTML="<span>Het is al " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " seconden sinds Rutte IV is gevallen.</span>"
+  mycountainer.innerHTML="<span>Kabinet Schoof I is " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " geleden beëdigd.</span>"
 }
 </script>
