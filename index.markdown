@@ -48,7 +48,7 @@ dcountup.prototype.start=function(){
   setTimeout(function(){thisobj.start()}, 1000) //update results every second
 }
 
-var government = new dcountup("July 2, 2024 11:00:00", "days")
+var government = new dcountup("June 3, 2024 16:10:00", "days")
 government.oncountup = function(result){
   var mycountainer=document.getElementById("counter")
   mycountainer.innerHTML="<span>Kabinet-Schoof is " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " geleden beëdigd.</span>"
