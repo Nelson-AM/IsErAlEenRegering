@@ -51,6 +51,6 @@ dcountup.prototype.start=function(){
 var government = new dcountup("June 3, 2024 16:10:00", "days")
 government.oncountup = function(result){
   var mycountainer=document.getElementById("counter")
-  mycountainer.innerHTML="<span>Kabinet-Schoof is " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " geleden beëdigd.</span>"
+  mycountainer.innerHTML="<span>Kabinet-Schoof is " + result['days'] + " dagen " + result['hours'] + " uren " + result['minutes'] + " minuten en " + result['seconds'] + " geleden demissionair geworden.</span>"
 }
 </script>
